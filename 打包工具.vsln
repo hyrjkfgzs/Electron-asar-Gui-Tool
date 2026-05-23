@@ -1,0 +1,21 @@
+doc_format_version = 1
+name = 打包工具
+property.settings.active_project_name = 打包工具
+
+root_filter
+{
+    child_filter
+    {
+        filter1
+        {
+            build_order = 0
+            project_file_name = "打包工具\\打包工具.vprj"
+            projects_dependent
+            type = project
+        }
+
+        num_child_filters = 1
+    }
+
+    name = root
+}

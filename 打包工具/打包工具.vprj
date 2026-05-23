@@ -1,0 +1,166 @@
+doc_format_version = 1
+project_identifier = "wutao.vproject.pc.win.1"
+
+root_filter
+{
+    child_filter
+    {
+        filter1
+        {
+            child_filter
+            {
+                filter1
+                {
+                    collapsed = true
+                    files.num_files = 16
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\base\\base.vgrp"
+                    name = 视窗基本类
+                }
+
+                filter10
+                {
+                    collapsed = true
+                    files.num_files = 2
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\shuimiaoJson\\shuimiao.vgrp"
+                    name = 水淼JSON类
+                }
+
+                filter11
+                {
+                    collapsed = true
+                    files.num_files = 18
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\HyJunYaa\\HyJunYaa.vgrp"
+                    name = 回忆菌模块
+                }
+
+                filter12
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\memory_module\\w_memory_module.vgrp"
+                    name = 内存模块库
+                }
+
+                filter13
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\WinHTTP5_1\\w_WinHTTP5_1.vgrp"
+                    name = WinHTTP5_1
+                }
+
+                filter14
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\xml\\w_xml.vgrp"
+                    name = XML数据访问支持
+                }
+
+                filter15
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\yyjson\\w_yyjson.vgrp"
+                    name = yyJSON
+                }
+
+                filter2
+                {
+                    collapsed = true
+                    files.num_files = 4
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\hp_socket\\w_hp_socket.vgrp"
+                    name = HPSocket网络通讯支持
+                }
+
+                filter3
+                {
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\JadeView\\base.vgrp"
+                    name = JadeView
+                }
+
+                filter4
+                {
+                    collapsed = true
+                    files.num_files = 30
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\piv\\piv_base.vgrp"
+                    name = PIV基础类
+                }
+
+                filter5
+                {
+                    collapsed = true
+                    files.num_files = 2
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\piv\\piv.vgrp"
+                    name = PIV扩展类
+                }
+
+                filter6
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\curl\\w_curl.vgrp"
+                    name = Curl网络传输
+                }
+
+                filter7
+                {
+                    collapsed = true
+                    files.num_files = 87
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\yw\\yw4_vip.vgrp"
+                    name = 仰望模块_非依赖_VIP版
+                }
+
+                filter8
+                {
+                    collapsed = true
+                    files.num_files = 110
+                    group_file_name = "*plugins\\vprj_win\\classlib\\user\\FC\\FC.vgrp"
+                    name = 原创软件模块
+                }
+
+                filter9
+                {
+                    collapsed = true
+                    files.num_files = 1
+                    group_file_name = "*plugins\\vprj_win\\classlib\\sys\\json\\w_json.vgrp"
+                    name = JSON数据访问支持
+                }
+
+                num_child_filters = 15
+            }
+
+            name = 模块
+        }
+
+        num_child_filters = 1
+    }
+
+    files
+    {
+        file1.file_name = "src\\main.v"
+        num_files = 1
+    }
+
+    name = 打包工具
+    type = project
+}
+
+settings
+{
+    project
+    {
+        app_desc = "Electron ASAR 打包工具GUI"
+        app_name = "Electron ASAR 打包工具GUI"
+        author_name = 回忆菌
+        icon_file_name = "Z:\\aaaa.ico"
+        legal_copy_right = "(C) 回忆菌 版权所有"
+        minor_version_number = 2
+        multi_processor_compile = true
+        out_file_name = "?Electron asar Gui工具.exe"
+        require_administrator = true
+        version_name = "1.0.2.0"
+        vol_class_lib_link_mode = 2
+    }
+}
