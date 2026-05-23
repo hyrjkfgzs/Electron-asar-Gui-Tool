@@ -31,9 +31,12 @@
 ## 开发信息
 
 - 开发框架：[火山视窗](https://www.voldp.com/) + [JadeView](https://jade.run/)
+- 前端组件库：[Animal-Island-UI](https://github.com/guokaigdg/animal-island-ui)
 - 许可证：MIT License
 - 作者：回忆菌
 
 ---
 
-> 由于本项目初衷是学习 JadeView 的使用，代码写得比较粗糙，还请大家多多包涵 ~ 🤝
+> 本项目初衷是学习 JadeView 的使用，代码写得比较粗糙，还请大家多多包涵 ~ 🤝
+>
+> 本项目的前端代码完全由 AI 生成 ✨
