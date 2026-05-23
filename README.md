@@ -30,7 +30,7 @@
 
 ## 开发信息
 
-- 开发框架：火山视窗 + [JadeView](https://jade.run/)
+- 开发框架：[火山视窗](https://www.voldp.com/) + [JadeView](https://jade.run/)
 - 许可证：MIT License
 - 作者：回忆菌
 
