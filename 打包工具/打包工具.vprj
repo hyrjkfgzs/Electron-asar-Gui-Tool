@@ -75,6 +75,7 @@ root_filter
 
                 filter3
                 {
+                    collapsed = true
                     files.num_files = 1
                     group_file_name = "*plugins\\vprj_win\\classlib\\user\\JadeView\\base.vgrp"
                     name = JadeView
@@ -131,6 +132,7 @@ root_filter
                 num_child_filters = 15
             }
 
+            collapsed = true
             name = 模块
         }
 
@@ -139,7 +141,7 @@ root_filter
 
     files
     {
-        file1.file_name = "src\\main.v"
+        file1.file_name = "src\\main.wsv"
         num_files = 1
     }
 
