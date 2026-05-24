@@ -667,9 +667,12 @@
         }
       });
 
-      // 禁用F5刷新
+      // 禁用F5刷新和Ctrl+R
       document.addEventListener('keydown', function(e) {
         if (e.key === 'F5' || (e.keyCode === 116)) {
+          e.preventDefault();
+        }
+        if (e.ctrlKey && (e.key === 'r' || e.key === 'R' || e.keyCode === 114)) {
           e.preventDefault();
         }
       });
